@@ -15,6 +15,7 @@ Network Addressing Scheme
 
 Network Devices
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 |Melbourne|S0/0/1|10.0.0.1|255.255.255.252|N/A|
 |G0/1.50|192.168.50.1|255.255.255.0|N/A|
 |G0/1.60|192.168.60.1|255.255.255.0|N/A|
