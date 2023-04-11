@@ -1,14 +1,14 @@
 LAN and WAN Network Setup for an Organization
 This project describes the LAN and WAN network setup for an organization, including the network address, subnet mask, and usage for each subnet. The network devices, interfaces, IP addresses, subnet masks, and default gateway are also provided.
 
- First Header  | Second Header 
+ Network  | Address | Subnet Mask | 
  ------------- | ------------- 
- Content Cell  | Content Cell  
- Content Cell  | Content Cell  
+ 192.168.50.0/24 | 255.255.255.0  
+ 192.168.60.0/24 | 255.255.255.0  
 
 Network Addressing Scheme
 
-| Network | Address |	Subnet Mask |	Used for |
+| Network | Address |	Subnet Mask |
 | ------------- | ------------- | ------------- |
 | 192.168.50.0/24 | 255.255.255.0 | VLAN 50 (Business) |
 | 192.168.60.0/24 | 255.255.255.0 | VLAN 60 (HR) |
