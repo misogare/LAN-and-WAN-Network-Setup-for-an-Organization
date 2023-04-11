@@ -1,5 +1,5 @@
-LAN and WAN Network Setup for an Organization
-This project describes the LAN and WAN network setup for an organization, including the network address, subnet mask, and usage for each subnet. The network devices, interfaces, IP addresses, subnet masks, and default gateway are also provided.
+# LAN and WAN Network Setup for an Organization
+## **This project describes the LAN and WAN network setup for an organization, including the network address, subnet mask, and usage for each subnet. The network devices, interfaces, IP addresses, subnet masks, and default gateway are also provided.**
 
 
 
@@ -29,10 +29,17 @@ Network Devices
 |PC-C|NIC|192.168.60.2|255.255.255.0|192.168.60.1|
 |PC-D|NIC|192.168.50.4|255.255.255.0|192.168.50.1|
 |PC-E|NIC|192.168.60.3|255.255.255.0|192.168.60.1|
-How to Use
-This project provides a simple example of a LAN and WAN network for an organization using the IP addressing scheme outlined in the table. To use this project, simply follow the instructions below:
 
-Set up the devices according to the IP addressing scheme outlined in the table above.
-Connect the devices together as shown in the diagram.
-Configure the devices with the appropriate IP addresses and default gateways.
-Test connectivity between the devices to ensure that the network is functioning correctly.
+
+## How to Use
+    This project provides a simple example of a LAN and WAN network for an organization using the IP addressing scheme outlined in the table. To use this project, simply follow the instructions below:
+    Set up the devices according to the IP addressing scheme outlined in the table above.
+    Connect the devices together as shown in the diagram.
+    Configure the devices with the appropriate IP addresses and default gateways.
+    Test connectivity between the devices to ensure that the network is functioning correctly.
+
+_Note: the passwords for the switches are :
+```
+Encrypted privileged exec password = class
+Console access password = cisco
+```
