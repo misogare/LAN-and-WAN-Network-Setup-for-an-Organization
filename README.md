@@ -1,10 +1,7 @@
 LAN and WAN Network Setup for an Organization
 This project describes the LAN and WAN network setup for an organization, including the network address, subnet mask, and usage for each subnet. The network devices, interfaces, IP addresses, subnet masks, and default gateway are also provided.
 
- Network  | Address | Subnet Mask | 
- ------------- | ------------- 
- 192.168.50.0/24 | 255.255.255.0  
- 192.168.60.0/24 | 255.255.255.0  
+
 
 Network Addressing Scheme
 
@@ -17,7 +14,7 @@ Network Addressing Scheme
 | 209.195.205.0/29 | 255.255.255.248 | Internet (Lo1) |
 
 Network Devices
-|Device|Interface|IP Address|Subnet Mask|Default Gateway|
+| Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |Melbourne|S0/0/1|10.0.0.1|255.255.255.252|N/A|
 |G0/1.50|192.168.50.1|255.255.255.0|N/A|
 |G0/1.60|192.168.60.1|255.255.255.0|N/A|
