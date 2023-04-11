@@ -7,6 +7,7 @@ This project describes the LAN and WAN network setup for an organization, includ
 | Content Cell  | Content Cell  |
 
 Network Addressing Scheme
+
 | Network | Address |	Subnet Mask |	Used for |
 | ------------- | ------------- | ------------- |
 | 192.168.50.0/24 | 255.255.255.0 | VLAN 50 (Business) |
@@ -14,6 +15,7 @@ Network Addressing Scheme
 | 192.168.99.0/24 | 255.255.255.0 | VLAN 99 (Management) |
 | 10.0.0.0/30 | 255.255.255.252 | WAN (Melbourne to Perth) |
 | 209.195.205.0/29 | 255.255.255.248 | Internet (Lo1) |
+
 Network Devices
 |Device|Interface|IP Address|Subnet Mask|Default Gateway|
 |Melbourne|S0/0/1|10.0.0.1|255.255.255.252|N/A|
